@@ -1,0 +1,19 @@
+{
+  "name": "quill-conv",
+  "version": "0.1.4",
+  "main": "lib",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "babel src -d lib --watch"
+  },
+  "author": "Jason <jason.daurus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@gzzhanghao/jsdom": "^11.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "quill": "^1.2.6"
+  }
+}
