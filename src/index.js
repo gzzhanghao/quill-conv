@@ -1,6 +1,6 @@
 import fs from 'fs'
 import vm from 'vm'
-import { JSDOM } from '@gzzhanghao/jsdom'
+import { JSDOM } from 'jsdom'
 
 export default class QuillConv {
 

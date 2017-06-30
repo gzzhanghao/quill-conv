@@ -1,6 +1,6 @@
 {
   "name": "quill-conv",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "main": "lib",
   "scripts": {
     "build": "babel src -d lib",
@@ -9,11 +9,23 @@
   "author": "Jason <jason.daurus@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@gzzhanghao/jsdom": "^11.0.1"
+    "jsdom": "^11.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "quill": "^1.2.6"
-  }
+  },
+  "description": "Convert HTML to Quill Delta in node.",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzzhanghao/quill-conv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gzzhanghao/quill-conv/issues"
+  },
+  "homepage": "https://github.com/gzzhanghao/quill-conv#readme"
 }
