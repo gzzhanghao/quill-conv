@@ -1,5 +1,5 @@
 {
   presets: [
-    ['env', { targets: { node: '0.12.5' } }],
+    ['env', { targets: { node: 'current' } }],
   ],
 }
